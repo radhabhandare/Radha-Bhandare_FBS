@@ -1,14 +1,12 @@
-#1. Python Program to Put Even and Odd elements of a List into two Different Lists
-li = [10, 20 ,3, 5,12, 4, 78 ]
+num = [10, 15, 20, 25, 30, 35]
 even = []
 odd = []
 
-for i in li:
-  if i % 2 == 0:
-    even.append(i)
-    
-  else:
-    odd.append(i)
-    
-print('Even', even)
-print('Odd', odd)
+for i in num:
+    if i % 2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+
+print('Even numbers:', even)
+print('Odd numbers:', odd)

@@ -1,8 +1,7 @@
-# 2. Python Program to Merge Two Lists and Sort it
+list1 = [5, 2, 8, 1]
+list2 = [7, 3, 6, 4]
 
-li1 = [10, 20 , 30 ,40]
-li2 = [30 , 50 ,60 , 70]
+list3 = list1 + list2
+list3.sort()
 
-li1.extend(li2)
-li1.sort()
-print(li1)
+print('Merged and sorted list:', list3)
