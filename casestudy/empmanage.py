@@ -70,26 +70,122 @@
 #         print('Employee is not Exist....')
       
       
-import mysql.connector as ct
-from hr import Hr 
+import mysql.connector  as ct
+from hr import Hr
 from dev import Dev
 class EmpManage:
-  @staticmethod
-  def getConnection():
-    con = ct.connect(
-      host = 'localhost',
-      user = 'root',
-      password = 'radha',
-      database = 'employee_db'
-    )
-    return con
-  def addEmp(self):
-    eid = input('Enter Empp ID:')
-    con = EmpManage.getConnection()
-    cur = con.cursor()
-    cur = con.execute("select eid from employee wherre eid= %",(eid,))
-    if cur.fetchone():
-      print("employee is alredy exist..")
+    @staticmethod
+    def getConection():
+        con=ct.connect(
+            host='localhost',
+            user='root',
+            password="radha",
+            database="employee_db"
+        )
+        return con
+    def addEmp(self):
+       eid=input("Enter  Emp Id ")
+       con=EmpManage.getConection()
+       cur=con.cursor()
+       cur.execute("select eid from employees where eid=%s",(eid,))
+       if cur.fetchone():
+           print("Employee is alredy exist... ")
+           cur.close()
+           con.close()
+       else:
+            ename=input("Enter the name of Employee ")
+            esal=float(input("Enter the Sal of Employee "))
+            print("1.Hr ")
+            print("2.Devloper  ")
+            ch=int(input("Enter your choice    "))
+            if ch==1:
+                extra=float(input("Enter the Com of Hr "))
+                emp_type="HR"
+            elif ch==2:
+                extra=float(input("Enter the Bonus of  Devloper  "))
+                emp_type="Dev"
+            else:
+                print("Inavalic choice...  ")
+                cur.close()
+                con.close()
+            qur="insert into employees (eid,ename,esal,emp_type,extra_amount) values(%s,%s,%s,%s,%s)" 
+            cur.execute(qur,(eid,ename,esal,emp_type,extra))
+            con.commit()
+            print("Employee added suseesfully..... ")
+            cur.close()
+            con.close()
+    def displyEmp(self):
+        con=EmpManage.getConection()
+        cur=con.cursor()
+        cur.execute("select * from employees ")
+        row=cur.fetchall()
+        if not row:
+           print("No one is here...")
+        else:
+            for r in row:
+                print(r)
+        cur.close()
+        con.close()
+    def searchEmp(self):
+       eid=input("Eneter the id of Eployee to serch employee ")
+       con=EmpManage.getConection()
+       cur=con.cursor()
+       cur.execute('select * from employees where eid=%s',(eid,))
+       row=cur.fetchone()
+       if row:
+           print(row)
+       else:
+           print("Employee with this  id is not exist..")
+           cur.close()
+           con.close()
+         
+    def UpdateEmp(self):
+        eid=input("Enter  Emp Id ")
+        con=EmpManage.getConection()
+        cur=con.cursor()
+        cur.execute("select eid from employees where eid=%s",(eid,))
+        row=cur.fetchone()
+        if not row:
+            print("Emp is not  found... ")
+            cur.close()
+            con.close()
+            return
+        emp_type=row[0]
+        print("1>Update  Devloper")
+        print("2>Update  HR")
+        ch=int(input("enter the choice"))
+        if ch==1 and emp_type=="Dev":
+            newname=input("enter the Name of Devloper to update ")
+        elif ch==2 and emp_type=="HR":
+            newname=input("enter the Name of HR to update ")
+        else:
+            print("Type ,issamatch or inavlid input")
+            cur.close()
+            con.close()
+            return
+        cur.execute("update employees set ename=%s where eis=%s",(newname,eid))
+        con.commit()
+        print("Employee update ho gaya bhaii ")
+        cur.close()
+        con.close()
+    def deleteEmp(self):
+        eid=input("Enter  Emp Id ")
+        con=EmpManage.getConection()
+        cur=con.cursor()
+        cur.execute("select eid from employees where eid=%s",(eid,))
+        row=cur.fetchone()
+        if not row:
+            print("Emp is not  found... ")
+            cur.close()
+            con.close()
+            return
+        else:
+            cur.execute("delete from employees where eid=%s",(eid,))
+            con.commit()
+            print("Employee deleted susesfully ")
+            cur.close()
+            con.close()
+            return
       
       
       
