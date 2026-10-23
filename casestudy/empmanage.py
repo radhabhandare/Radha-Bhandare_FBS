@@ -70,4 +70,27 @@
 #         print('Employee is not Exist....')
       
       
+import mysql.connector as ct
+from hr import Hr 
+from dev import Dev
+class EmpManage:
+  @staticmethod
+  def getConnection():
+    con = ct.connect(
+      host = 'localhost',
+      user = 'root',
+      password = 'radha',
+      database = 'employee_db'
+    )
+    return con
+  def addEmp(self):
+    eid = input('Enter Empp ID:')
+    con = EmpManage.getConnection()
+    cur = con.cursor()
+    cur = con.execute("select eid from employee wherre eid= %",(eid,))
+    if cur.fetchone():
+      print("employee is alredy exist..")
+      
+      
+      
 
