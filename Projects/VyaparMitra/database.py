@@ -30,7 +30,6 @@ def verify_password(password, stored_hash):
         return False
 
 def initialize_database():
-    """Create tables and add a first-run administrator if no users exist."""
     conn = get_connection()
     cursor = conn.cursor()
     statements = [
