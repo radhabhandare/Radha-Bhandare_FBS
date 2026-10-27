@@ -1,0 +1,511 @@
+Product_ID,Product_Name,Category,Brand,Price,Rating,Reviews,Stock,Delivery_Days,Seller_Rating,MRP,Discount_Percent
+FLP0481,Noise ColorFit,Smart Watches,Bajaj,12557.0,3.9,31571,115,9,4.1,13248.0,5.2
+FLP0450,Adidas Sports Shoes,Shoes,OnePlus,2969.0,4.6,35553,172,1,3.5,4575.0,35.1
+FLP0476,Bajaj Iron,Home Appliances,Nike,6418.0,4.4,39328,89,1,4.2,8676.0,26.0
+FLP0435,boAt Wave,Smart Watches,Noise,1218.0,4.6,24302,169,1,3.6,1660.0,26.6
+FLP0369,Boult Audio,Headphones,OnePlus,2868.0,3.4,33910,183,6,3.9,4559.0,37.1
+FLP0056,Fastrack Reflex,Smart Watches,Sony,1580.0,4.7,21391,216,9,4.4,2486.0,36.4
+FLP0323,Fastrack Reflex,Smart Watches,Samsung,6857.0,4.0,12874,154,2,3.5,7556.0,9.3
+FLP0077,Fastrack Reflex,Smart Watches,Samsung,1978.0,4.3,3765,20,5,4.3,2770.0,28.6
+FLP0132,Samsung 43 inch 4K,Televisions,Realme,5985.0,4.8,31710,69,3,3.9,7960.0,24.8
+FLP0348,Noise ColorFit,Smart Watches,Realme,1320.0,3.6,33137,7,8,4.4,1506.0,12.4
+FLP0416,OnePlus Nord CE,Mobiles,Lenovo,1133.0,3.7,1386,186,7,4.3,1536.0,26.2
+FLP0221,Boult Audio,Headphones,Dell,13879.0,5.0,25838,207,9,3.7,17520.0,20.8
+FLP0118,Adidas Sports Shoes,Shoes,Sony,8395.0,4.1,30378,99,6,4.9,10374.0,19.1
+FLP0250,Boult Audio,Headphones,OnePlus,4671.0,4.6,3241,155,4,4.2,6878.0,32.1
+FLP0174,Titan Smart,Smart Watches,Prestige,4002.0,4.0,11177,181,9,4.8,5707.0,29.9
+FLP0094,Skechers Walking Shoes,Shoes,JBL,16451.0,3.5,36581,145,7,4.8,22119.0,25.6
+FLP0326,Puma Sneakers,Shoes,Realme,325.0,4.8,40702,223,6,4.8,343.0,5.2
+FLP0276,Noise ColorFit,Smart Watches,Noise,4522.0,3.9,26767,235,4,4.2,6106.0,25.9
+FLP0343,JBL Tune,Headphones,Philips,3869.0,3.8,18359,221,1,4.0,5023.0,23.0
+FLP0071,Lenovo IdeaPad Slim,Laptops,HP,4152.0,2.6,37388,16,6,4.0,5348.0,22.4
+FLP0311,LG Microwave,Home Appliances,Samsung,7512.0,4.1,1212,240,1,4.8,13197.0,43.1
+FLP0010,Lenovo IdeaPad Slim,Laptops,Nike,7821.0,3.3,45501,213,5,2.8,9365.0,16.5
+FLP0251,Nike Running Shoes,Shoes,Whirlpool,3396.0,5.0,15853,204,3,3.8,4400.0,22.8
+FLP0409,boAt Wave,Smart Watches,Sony,1493.0,3.4,15043,227,7,3.5,1818.0,17.9
+FLP0424,Boult Audio,Headphones,Nikon,9812.0,4.1,21798,136,7,4.4,14288.0,31.3
+FLP0452,Adidas Sports Shoes,Shoes,Bajaj,2929.0,,28459,227,3,4.3,4756.0,38.4
+FLP0173,boAt Rockerz,Headphones,Samsung,3176.0,4.7,40608,11,3,3.6,5769.0,44.9
+FLP0031,OnePlus 43 inch,Televisions,HP,3935.0,4.0,30507,154,7,4.7,5481.0,28.2
+FLP0449,Fujifilm Instax,Cameras,Bajaj,2841.0,3.5,36474,140,9,4.9,5111.0,44.4
+FLP0091,LG Microwave,Home Appliances,Samsung,4141.0,,33708,98,5,4.1,4610.0,10.2
+FLP0382,Puma Sneakers,Shoes,HP,19969.0,4.7,11949,54,4,3.7,35232.0,43.3
+FLP0132,Samsung 43 inch 4K,Televisions,Realme,5985.0,4.8,31710,69,3,3.9,7960.0,24.8
+FLP0365,Fujifilm Instax,Cameras,Bajaj,2597.0,4.0,25523,15,4,4.5,3547.0,26.8
+FLP0074,Acer Aspire,Laptops,OnePlus,2154.0,3.9,13659,24,3,3.5,2852.0,24.5
+FLP0211,Fujifilm Instax,Cameras,JBL,10968.0,3.2,33215,152,6,3.6,12380.0,11.4
+FLP0330,Whirlpool Washing Machine,Home Appliances,Adidas,1434.0,3.5,13532,45,3,3.8,1548.0,7.4
+FLP0370,Sony Alpha,Cameras,LG,3336.0,4.2,27108,63,2,3.7,5362.0,37.8
+FLP0102,Dell Inspiron,Laptops,Prestige,3940.0,4.6,36641,12,4,3.6,4671.0,15.6
+FLP0219,Whirlpool Washing Machine,Home Appliances,Noise,1478.0,4.8,6596,11,8,4.1,1711.0,13.6
+FLP0155,OnePlus 43 inch,Televisions,Redmi,2113.0,4.2,34596,73,1,4.2,2862.0,26.2
+FLP0226,Acer Aspire,Laptops,Sony,6903.0,3.7,2174,134,6,3.2,10596.0,34.9
+FLP0400,Realme Narzo,Mobiles,Adidas,2632.0,3.8,12940,193,1,4.0,3567.0,26.2
+FLP0064,OnePlus Nord CE,Mobiles,Redmi,2776.0,4.1,44304,234,7,4.3,4276.0,35.1
+FLP0003,Samsung 43 inch 4K,Televisions,JBL,3104.0,4.1,41694,222,1,3.5,4036.0,23.1
+FLP0442,Bajaj Iron,Home Appliances,Bajaj,4118.0,4.1,10355,21,7,4.0,6279.0,34.4
+FLP0341,boAt Rockerz,Headphones,HP,22533.0,4.2,28758,140,7,3.1,33487.0,32.7
+FLP0083,Samsung 43 inch 4K,Televisions,Adidas,2118.0,3.2,38216,41,9,4.0,3615.0,41.4
+FLP0285,Acer Aspire,Laptops,Sony,6108.0,4.0,39678,10,4,4.4,10217.0,40.2
+FLP0210,OnePlus 43 inch,Televisions,Sony,1304.0,4.5,19804,244,4,4.5,1696.0,23.1
+FLP0472,Philips Air Fryer,Home Appliances,Realme,1779.0,4.3,164,98,1,4.3,1911.0,6.9
+FLP0182,Nikon DSLR,Cameras,Whirlpool,4748.0,4.2,44184,187,7,4.7,7300.0,35.0
+FLP0078,Noise ColorFit,Smart Watches,Prestige,8529.0,4.4,22195,83,7,4.1,13861.0,38.5
+FLP0297,Puma Sneakers,Shoes,Whirlpool,3503.0,4.2,38980,48,4,4.2,4033.0,13.1
+FLP0453,Puma Sneakers,Shoes,Sony,7123.0,4.2,2373,8,3,4.4,9948.0,28.4
+FLP0496,Fujifilm Instax,Cameras,Noise,5363.0,4.9,48771,86,3,4.4,5683.0,5.6
+FLP0426,LG 43 inch UHD,Televisions,Lenovo,2337.0,4.3,28225,73,7,3.9,4210.0,44.5
+FLP0034,Dell Inspiron,Laptops,Redmi,1611.0,4.3,17092,195,3,3.7,1872.0,13.9
+FLP0080,boAt Wave,Smart Watches,Noise,2087.0,2.6,23382,210,5,4.4,3083.0,32.3
+FLP0418,HP 15s,Laptops,Bajaj,4255.0,3.3,19815,87,9,4.3,4487.0,5.2
+FLP0168,Fujifilm Instax,Cameras,Dell,3043.0,3.3,20389,152,4,4.4,4983.0,38.9
+FLP0069,Titan Smart,Smart Watches,Nike,3764.0,4.5,3326,107,3,4.2,6549.0,42.5
+FLP0001,Fujifilm Instax,Cameras,Puma,1841.0,5.0,21264,78,9,4.9,2545.0,27.7
+FLP0085,Fujifilm Instax,Cameras,HP,3875.0,4.0,3749,100,4,3.8,6796.0,43.0
+FLP0012,Sony Alpha,Cameras,OnePlus,4757.0,,42609,208,3,4.1,6998.0,32.0
+FLP0230,Sony Bravia,Televisions,Canon,4513.0,3.8,8320,200,2,3.9,6634.0,32.0
+FLP0023,ASUS VivoBook,Laptops,Puma,3370.0,4.1,43061,156,4,3.9,3551.0,5.1
+FLP0324,HP 15s,Laptops,Dell,4347.0,3.6,7171,225,7,3.6,7497.0,42.0
+FLP0079,Nikon DSLR,Cameras,Nikon,10264.0,3.7,1880,210,2,4.4,16070.0,36.1
+FLP0248,Motorola G54,Mobiles,Bajaj,18285.0,3.5,45128,97,9,4.1,20171.0,9.4
+FLP0073,Redmi Note 13,Mobiles,Whirlpool,1978.0,3.2,13151,174,6,4.5,3281.0,39.7
+FLP0475,boAt Rockerz,Headphones,Nikon,4293.0,2.5,31926,90,1,3.3,6840.0,37.2
+FLP0336,Bajaj Iron,Home Appliances,Samsung,3920.0,3.1,36598,189,3,4.6,5840.0,32.9
+FLP0019,Bajaj Iron,Home Appliances,OnePlus,1387.0,4.0,30524,68,7,4.4,1973.0,29.7
+FLP0281,Titan Smart,Smart Watches,Lenovo,3228.0,4.5,34924,24,4,3.8,3899.0,17.2
+FLP0125,TCL 55 inch 4K,Televisions,Dell,4425.0,3.4,28674,215,9,4.0,5446.0,18.7
+FLP0443,OnePlus Nord CE,Mobiles,Adidas,1689.0,4.4,30627,100,7,4.8,2248.0,24.9
+FLP0249,Realme Narzo,Mobiles,Adidas,13122.0,3.8,27721,225,6,4.1,23624.0,44.5
+FLP0040,boAt Rockerz,Headphones,Whirlpool,1004.0,3.3,5468,82,4,3.8,1215.0,17.4
+FLP0461,Acer Aspire,Laptops,Whirlpool,12609.0,3.4,47834,159,2,4.1,14249.0,11.5
+FLP0047,Prestige Mixer,Home Appliances,boAt,20725.0,4.0,49067,164,9,3.8,32182.0,35.6
+FLP0302,Samsung Galaxy M14,Mobiles,Nike,2339.0,4.6,3635,181,3,4.0,3528.0,33.7
+FLP0196,ASUS VivoBook,Laptops,Dell,1911.0,3.7,13708,26,9,3.8,2155.0,11.3
+FLP0359,Motorola G54,Mobiles,Canon,2710.0,3.8,14487,10,9,3.9,2870.0,5.6
+FLP0105,Acer Aspire,Laptops,boAt,24873.0,4.4,34615,140,5,3.6,41439.0,40.0
+FLP0282,Noise ColorFit,Smart Watches,Bajaj,8418.0,3.6,9434,137,7,3.7,12097.0,30.4
+FLP0149,Motorola G54,Mobiles,Samsung,8570.0,,34893,53,7,3.2,12954.0,33.8
+FLP0156,Lenovo IdeaPad Slim,Laptops,Adidas,14838.0,4.4,17863,45,1,4.5,19866.0,25.3
+FLP0447,Sony WH-CH,Headphones,Samsung,5470.0,4.4,4732,194,8,3.9,7428.0,26.4
+FLP0183,Nike Running Shoes,Shoes,Redmi,5197.0,4.7,5911,89,3,3.9,6415.0,19.0
+FLP0070,Adidas Sports Shoes,Shoes,Noise,4885.0,3.2,15817,10,3,3.4,6393.0,23.6
+FLP0245,Nikon DSLR,Cameras,Samsung,5005.0,4.7,36580,156,7,4.6,6195.0,19.2
+FLP0299,TCL 55 inch 4K,Televisions,Nikon,7310.0,4.3,24847,51,9,4.4,11415.0,36.0
+FLP0413,Puma Sneakers,Shoes,,5116.0,4.2,48516,170,5,4.5,7230.0,29.2
+FLP0425,LG Microwave,Home Appliances,HP,3642.0,4.2,2097,164,1,4.1,4049.0,10.1
+FLP0303,boAt Rockerz,Headphones,Philips,10945.0,3.6,19600,187,8,4.2,16355.0,33.1
+FLP0494,Puma Sneakers,Shoes,HP,8856.0,4.3,7932,147,7,3.1,12121.0,26.9
+FLP0181,TCL 55 inch 4K,Televisions,OnePlus,4334.0,4.4,18995,121,2,4.8,5345.0,18.9
+FLP0375,Redmi Note 13,Mobiles,Prestige,1491.0,4.3,19342,75,5,4.4,2229.0,33.1
+FLP0133,Samsung Galaxy M14,Mobiles,Bajaj,5521.0,,38249,235,1,3.9,9249.0,40.3
+FLP0342,boAt Wave,Smart Watches,Realme,3146.0,3.6,21088,222,1,4.1,4507.0,30.2
+FLP0438,Bajaj Iron,Home Appliances,ASUS,6741.0,4.5,40128,54,3,4.6,7624.0,11.6
+FLP0177,boAt Rockerz,Headphones,Lenovo,1210.0,4.1,39337,28,7,4.0,1645.0,26.4
+FLP0311,LG Microwave,Home Appliances,Samsung,7512.0,4.1,1212,240,1,4.8,13197.0,43.1
+FLP0350,Nikon DSLR,Cameras,Adidas,1317.0,4.6,48461,236,2,4.0,2268.0,41.9
+FLP0486,Adidas Sports Shoes,Shoes,Samsung,3501.0,4.4,5595,81,1,3.6,4066.0,13.9
+FLP0138,OnePlus Nord CE,Mobiles,OnePlus,125631.0,5.0,39837,53,3,3.8,14453.0,19.5
+FLP0498,boAt Wave,Smart Watches,Lenovo,2558.0,4.1,7021,58,9,4.0,3000.0,14.7
+FLP0272,LG Microwave,Home Appliances,LG,933.0,4.2,30659,232,3,4.4,1619.0,42.4
+FLP0441,Samsung Galaxy M14,Mobiles,Nikon,1922.0,4.2,46097,90,9,4.0,3052.0,37.0
+FLP0354,Prestige Mixer,Home Appliances,Prestige,4286.0,4.5,8021,208,2,3.9,7233.0,40.7
+FLP0087,Skechers Walking Shoes,Shoes,OnePlus,11362.0,4.1,16982,47,8,4.5,17087.0,33.5
+FLP0076,Dell Inspiron,Laptops,Prestige,2112.0,3.0,731,200,9,4.3,3596.0,41.3
+FLP0448,Puma Sneakers,Shoes,Philips,4587.0,4.3,38459,107,8,4.2,6299.0,27.2
+FLP0016,Samsung 43 inch 4K,Televisions,Nike,3890.0,5.0,8338,7,3,4.8,4430.0,12.2
+FLP0204,OnePlus Nord CE,Mobiles,Philips,6053.0,3.8,5749,161,6,3.6,8536.0,29.1
+FLP0275,Samsung Galaxy M14,Mobiles,Sony,1997.0,3.9,37777,89,6,3.8,2945.0,32.2
+FLP0394,Bajaj Iron,Home Appliances,JBL,6521.0,4.3,1093,97,8,3.8,8432.0,22.7
+FLP0020,Boult Audio,Headphones,Puma,7650.0,3.9,5813,171,8,4.0,9590.0,20.2
+FLP0454,Puma Sneakers,Shoes,Dell,19311.0,5.0,15597,181,8,3.5,34749.0,44.4
+FLP0339,Fire-Boltt Ninja,Smart Watches,,3716.0,3.9,48082,201,6,4.7,4029.0,7.8
+FLP0057,LG Microwave,Home Appliances,OnePlus,1475.0,3.9,17745,119,9,,2054.0,28.2
+FLP0334,Boult Audio,Headphones,ASUS,15233.0,3.9,2813,61,8,3.9,16204.0,6.0
+FLP0152,Sony WH-CH,Headphones,Nikon,4455.0,3.4,36032,43,3,4.2,5630.0,20.9
+FLP0239,Boult Audio,Headphones,Philips,13211.0,4.0,18805,44,3,3.8,15092.0,12.5
+FLP0406,Fire-Boltt Ninja,Smart Watches,boAt,10033.0,4.0,20136,7,6,3.8,14458.0,30.6
+FLP0308,ASUS VivoBook,Laptops,,17351.0,4.0,16864,173,4,4.4,18455.0,6.0
+FLP0469,LG 43 inch UHD,Televisions,Puma,1960.0,3.5,24040,116,1,4.5,2484.0,21.1
+FLP0432,Skechers Walking Shoes,Shoes,Lenovo,1939.0,5.0,15276,170,2,4.2,3250.0,40.3
+FLP0490,LG 43 inch UHD,Televisions,ASUS,1063.0,3.5,38819,0,3,3.7,1455.0,26.9
+FLP0026,Skechers Walking Shoes,Shoes,Nikon,2180.0,4.5,37423,120,2,4.2,3018.0,27.8
+FLP0366,GoPro Hero,Cameras,Philips,9903.0,4.8,24050,67,1,4.1,13831.0,28.4
+FLP0043,Lenovo IdeaPad Slim,Laptops,Lenovo,3519.0,3.7,4653,111,8,4.3,6163.0,42.9
+FLP0141,Philips Air Fryer,Home Appliances,LG,5358.0,4.0,7466,99,2,3.5,7403.0,27.6
+FLP0419,LG Microwave,Home Appliances,JBL,921.0,4.1,24327,241,6,4.3,1662.0,44.6
+FLP0317,JBL Tune,Headphones,Whirlpool,5896.0,4.2,13898,202,5,4.1,7469.0,21.1
+FLP0127,Dell Inspiron,Laptops,Dell,3371.0,4.7,2287,6,6,4.0,5784.0,41.7
+FLP0333,Titan Smart,Smart Watches,LG,2000.0,4.2,12996,37,7,4.2,2175.0,8.0
+FLP0032,OnePlus Nord CE,Mobiles,Lenovo,2246.0,4.0,16729,161,9,3.6,3000.0,25.1
+FLP0114,Campus Running Shoes,Shoes,Noise,7998.0,3.6,17159,53,8,4.5,11677.0,31.5
+FLP0154,JBL Tune,Headphones,Puma,3126.0,3.8,42854,52,9,4.2,4799.0,34.9
+FLP0212,Sony Alpha,Cameras,Dell,6647.0,3.0,28231,32,7,4.3,11060.0,39.9
+FLP0423,Skechers Walking Shoes,Shoes,Redmi,3941.0,4.3,10212,43,4,3.8,4944.0,20.3
+FLP0058,Motorola G54,Mobiles,Puma,1782.0,4.8,44204,182,9,4.8,3217.0,44.6
+FLP0267,Fastrack Reflex,Smart Watches,Prestige,7808.0,4.9,143,74,1,3.3,13406.0,41.8
+FLP0025,Noise ColorFit,Smart Watches,Dell,6979.0,3.6,17548,138,4,3.8,9510.0,26.6
+FLP0018,Philips Air Fryer,Home Appliances,Puma,1186.0,4.5,17844,133,7,4.0,1967.0,39.7
+FLP0186,Samsung 43 inch 4K,Televisions,JBL,9541.0,3.3,17302,83,4,3.5,11488.0,16.9
+FLP0067,Noise ColorFit,Smart Watches,Dell,1342.0,4.2,22437,160,5,4.7,1728.0,22.3
+FLP0403,Boult Audio,Headphones,Redmi,1494.0,4.5,41165,7,1,4.7,2210.0,32.4
+FLP0397,Philips Air Fryer,Home Appliances,LG,3581.0,3.8,9769,42,7,3.4,4500.0,20.4
+FLP0095,Nike Running Shoes,Shoes,HP,16587.0,3.9,16720,205,2,3.8,3456.0,17.2
+FLP0497,JBL Tune,Headphones,Philips,1375.0,3.7,46159,9,2,3.9,1583.0,13.1
+FLP0355,Philips Air Fryer,Home Appliances,HP,4260.0,4.3,2389,239,5,4.2,7152.0,40.4
+FLP0024,Prestige Mixer,Home Appliances,Dell,3374.0,4.2,17714,155,7,4.6,5386.0,37.4
+FLP0232,Titan Smart,Smart Watches,HP,5476.0,4.5,31783,74,9,3.9,7533.0,27.3
+FLP0266,ASUS VivoBook,Laptops,Realme,2282.0,5.0,8496,177,4,3.7,3771.0,39.5
+FLP0209,Adidas Sports Shoes,Shoes,Prestige,3285.0,4.1,42364,223,1,4.3,4726.0,30.5
+FLP0006,Philips Air Fryer,Home Appliances,ASUS,1132.0,3.9,46551,92,2,4.3,1780.0,36.4
+FLP0117,Realme Narzo,Mobiles,Bajaj,7734.0,5.0,34401,224,7,4.8,13010.0,40.6
+FLP0046,Titan Smart,Smart Watches,Sony,10173.0,4.3,44607,178,2,4.2,17518.0,41.9
+FLP0395,JBL Tune,Headphones,Adidas,6046.0,3.9,3368,16,9,4.6,6733.0,10.2
+FLP0017,Noise ColorFit,Smart Watches,LG,4094.0,4.0,5415,168,7,3.9,5637.0,27.4
+FLP0473,JBL Tune,Headphones,Prestige,3972.0,4.1,12150,112,7,4.2,4397.0,9.7
+FLP0462,Samsung 43 inch 4K,Televisions,Redmi,2116.0,3.4,30755,88,1,4.0,2758.0,23.3
+FLP0004,Sony Alpha,Cameras,ASUS,5413.0,3.8,4383,240,1,4.1,8205.0,34.0
+FLP0228,Skechers Walking Shoes,Shoes,Noise,1963.0,4.0,22057,110,9,3.6,3369.0,41.7
+FLP0483,Sony Bravia,Televisions,boAt,1874.0,4.9,46114,211,9,3.9,2869.0,34.7
+FLP0061,Noise Airwave,Headphones,Nikon,11389.0,3.7,45644,22,5,3.3,12263.0,7.1
+FLP0111,Whirlpool Washing Machine,Home Appliances,Realme,5256.0,4.7,40317,72,4,3.8,8104.0,35.1
+FLP0325,Campus Running Shoes,Shoes,ASUS,7320.0,3.9,12987,14,2,3.9,8017.0,8.7
+FLP0298,Sony Alpha,Cameras,Dell,1180.0,3.3,1145,174,5,3.9,1835.0,35.7
+FLP0030,Titan Smart,Smart Watches,boAt,2573.0,3.5,37470,136,3,5.0,2844.0,9.5
+FLP0193,OnePlus Nord CE,Mobiles,Nike,3190.0,3.3,11125,91,6,4.1,5685.0,43.9
+FLP0465,Titan Smart,Smart Watches,Whirlpool,2433.0,3.9,7195,240,8,4.3,4384.0,44.5
+FLP0027,Campus Running Shoes,Shoes,Noise,3558.0,3.9,29080,64,4,3.4,5296.0,32.8
+FLP0008,LG 43 inch UHD,Televisions,Noise,5369.0,4.5,29038,17,9,4.1,6939.0,22.6
+FLP0463,Skechers Walking Shoes,Shoes,Puma,5194.0,4.5,10581,92,5,3.5,7425.0,30.0
+FLP0109,Adidas Sports Shoes,Shoes,Puma,5685.0,4.4,4663,15,9,3.3,8299.0,31.5
+FLP0038,Redmi Note 13,Mobiles,Samsung,3855.0,4.3,27010,50,8,3.4,4437.0,13.1
+FLP0158,Lenovo IdeaPad Slim,Laptops,Dell,567.0,3.7,13472,164,3,4.6,699.0,18.9
+FLP0477,Motorola G54,Mobiles,Sony,668.0,3.6,16242,205,1,3.8,1208.0,44.7
+FLP0119,Philips Air Fryer,Home Appliances,boAt,9954.0,3.8,33159,108,1,4.0,11059.0,10.0
+FLP0115,Nikon DSLR,Cameras,LG,6351.0,4.3,19544,183,2,3.7,9412.0,32.5
+FLP0176,Skechers Walking Shoes,Shoes,OnePlus,4366.0,4.9,3272,23,8,4.2,7833.0,44.3
+FLP0195,Fujifilm Instax,Cameras,Puma,3650.0,4.7,22857,203,5,4.0,4182.0,12.7
+FLP0319,GoPro Hero,Cameras,LG,5920.0,2.7,887,53,8,3.6,9680.0,38.8
+FLP0145,Whirlpool Washing Machine,Home Appliances,Dell,7777.0,4.3,17519,12,3,4.4,10365.0,25.0
+FLP0377,Fire-Boltt Ninja,Smart Watches,JBL,1976.0,4.1,26948,100,1,4.7,2409.0,18.0
+FLP0430,Titan Smart,Smart Watches,Whirlpool,3403.0,3.9,22036,155,5,4.2,4285.0,20.6
+FLP0205,Noise ColorFit,Smart Watches,OnePlus,6177.0,4.4,18289,164,5,4.2,7081.0,12.8
+FLP0322,TCL 55 inch 4K,Televisions,OnePlus,666.0,5.0,29540,165,1,4.2,1102.0,39.6
+FLP0363,Realme Narzo,Mobiles,ASUS,5313.0,5.0,2495,69,6,3.7,7249.0,26.7
+FLP0455,OnePlus 43 inch,Televisions,Sony,2109.0,3.9,22178,247,1,3.4,2845.0,25.9
+FLP0142,Redmi Note 13,Mobiles,Dell,3825.0,4.1,34592,20,1,3.9,5250.0,27.1
+FLP0495,TCL 55 inch 4K,Televisions,Noise,7888.0,4.0,45414,115,3,4.2,8530.0,7.5
+FLP0068,Realme Narzo,Mobiles,Philips,4474.0,4.7,33760,23,4,4.4,8098.0,44.8
+FLP0262,Puma Sneakers,Shoes,JBL,1021.0,3.7,345,132,6,4.5,1080.0,5.5
+FLP0169,GoPro Hero,Cameras,JBL,14434.0,4.2,42908,130,7,4.5,15935.0,9.4
+FLP0191,Canon EOS,Cameras,Puma,1918.0,4.9,28802,208,5,3.9,2684.0,28.5
+FLP0384,OnePlus 43 inch,Televisions,Lenovo,2541.0,4.6,49852,117,3,4.1,4311.0,41.1
+FLP0246,Skechers Walking Shoes,Shoes,Adidas,2082.0,4.3,39924,232,6,4.1,3129.0,33.5
+FLP0194,Canon EOS,Cameras,Prestige,1049.0,,8772,185,1,3.5,1313.0,20.1
+FLP0256,Noise Airwave,Headphones,Puma,867.0,3.0,21305,217,2,4.6,986.0,12.1
+FLP0110,Nikon DSLR,Cameras,Lenovo,14434.0,4.2,11386,136,3,3.4,16569.0,12.9
+FLP0488,boAt Wave,Smart Watches,Dell,1577.0,3.1,9232,192,6,3.8,1731.0,8.9
+FLP0146,Fujifilm Instax,Cameras,Adidas,1449.0,4.6,35431,56,8,4.1,1793.0,19.2
+FLP0093,ASUS VivoBook,Laptops,LG,5579.0,3.8,29813,239,1,3.9,6634.0,15.9
+FLP0153,Samsung Galaxy M14,Mobiles,Samsung,11527.0,3.9,28016,46,6,4.3,15178.0,24.1
+FLP0229,Realme Narzo,Mobiles,,5759.0,3.9,6318,50,5,4.1,6262.0,8.0
+FLP0417,Samsung 43 inch 4K,Televisions,LG,2036.0,4.5,1103,83,3,4.2,2831.0,28.1
+FLP0084,Whirlpool Washing Machine,Home Appliances,Lenovo,5466.0,4.1,17378,144,6,3.4,8714.0,37.3
+FLP0273,LG Microwave,Home Appliances,Redmi,10735.0,4.4,25884,16,5,4.4,11842.0,9.3
+FLP0166,Motorola G54,Mobiles,ASUS,6621.0,4.6,1146,137,9,4.1,7077.0,6.4
+FLP0164,Fastrack Reflex,Smart Watches,Lenovo,2098.0,4.4,10238,99,3,4.2,3154.0,33.5
+FLP0200,Noise Airwave,Headphones,Noise,727.0,4.4,48618,186,1,3.6,866.0,16.1
+FLP0238,Skechers Walking Shoes,Shoes,Whirlpool,1898.0,3.0,6349,199,9,4.2,3161.0,40.0
+FLP0075,Samsung 43 inch 4K,Televisions,Philips,2001.0,3.4,35825,93,4,4.4,3187.0,37.2
+FLP0315,Noise Airwave,Headphones,LG,3111.0,3.4,29694,51,1,3.5,4723.0,34.1
+FLP0223,Adidas Sports Shoes,Shoes,Samsung,2086.0,4.6,26422,116,8,3.6,2357.0,11.5
+FLP0480,Titan Smart,Smart Watches,Redmi,1252.0,4.8,14748,172,5,4.1,1651.0,24.2
+FLP0120,OnePlus 43 inch,Televisions,Redmi,5536.0,4.1,6036,86,7,4.5,6391.0,13.4
+FLP0287,OnePlus Nord CE,Mobiles,LG,8259.0,2.7,12457,180,1,4.7,12654.0,34.7
+FLP0305,Acer Aspire,Laptops,Nikon,2493.0,4.1,28313,46,9,4.4,2904.0,14.2
+FLP0425,LG Microwave,Home Appliances,HP,3642.0,4.2,2097,164,1,4.1,4049.0,10.1
+FLP0361,boAt Wave,Smart Watches,ASUS,8532.0,3.5,48938,155,6,4.5,10724.0,20.4
+FLP0408,LG Microwave,Home Appliances,Whirlpool,938.0,4.2,10438,95,3,4.0,1493.0,37.2
+FLP0235,boAt Wave,Smart Watches,JBL,9451.0,3.4,30408,214,7,3.7,10373.0,8.9
+FLP0381,Philips Air Fryer,Home Appliances,Prestige,1900.0,4.1,39110,214,3,4.0,2988.0,36.4
+FLP0479,Redmi Note 13,Mobiles,boAt,8797.0,4.3,8249,17,3,3.9,11405.0,22.9
+FLP0391,JBL Tune,Headphones,Whirlpool,9971.0,3.5,11595,28,9,4.2,16363.0,39.1
+FLP0279,OnePlus Nord CE,Mobiles,ASUS,2121.0,3.9,19559,184,1,4.3,2373.0,10.6
+FLP0037,boAt Wave,Smart Watches,HP,10484.0,4.8,5487,142,3,3.6,14423.0,27.3
+FLP0197,ASUS VivoBook,Laptops,HP,6454.0,3.9,934,245,5,4.3,8685.0,25.7
+FLP0140,Samsung Galaxy M14,Mobiles,JBL,4118.0,4.5,38397,64,4,4.4,4804.0,14.3
+FLP0372,Whirlpool Washing Machine,Home Appliances,Samsung,1041.0,4.5,5850,89,1,4.8,1370.0,24.0
+FLP0254,Samsung 43 inch 4K,Televisions,Philips,1454.0,3.4,10918,214,2,4.2,1660.0,12.4
+FLP0290,Whirlpool Washing Machine,Home Appliances,ASUS,1345.0,3.8,1312,67,6,4.2,1419.0,5.2
+FLP0291,Motorola G54,Mobiles,Nikon,1169.0,4.0,14857,238,6,4.0,1991.0,41.3
+FLP0060,Sony Bravia,Televisions,Whirlpool,3973.0,3.8,44368,174,6,4.2,4716.0,15.8
+FLP0112,GoPro Hero,Cameras,Nikon,2471.0,4.9,40491,165,1,4.0,2628.0,6.0
+FLP0090,ASUS VivoBook,Laptops,Realme,2416.0,3.9,10656,40,6,4.7,2964.0,18.5
+FLP0269,Nikon DSLR,Cameras,Lenovo,2870.0,3.7,9719,31,9,4.2,3051.0,5.9
+FLP0007,LG 43 inch UHD,Televisions,Whirlpool,4466.0,4.4,19840,153,8,4.3,4942.0,9.6
+FLP0368,Acer Aspire,Laptops,Philips,3643.0,4.2,24571,47,3,4.5,6030.0,39.6
+FLP0352,Realme Narzo,Mobiles,Canon,1802.0,4.7,16504,107,8,3.9,3137.0,42.6
+FLP0393,Bajaj Iron,Home Appliances,Nikon,5302.0,4.5,12871,124,4,4.3,5881.0,9.8
+FLP0159,Redmi Note 13,Mobiles,Dell,4684.0,3.9,39763,101,5,4.2,5432.0,13.8
+FLP0151,JBL Tune,Headphones,Samsung,2107.0,5.0,10218,52,8,4.4,3572.0,41.0
+FLP0178,Sony WH-CH,Headphones,Samsung,10457.0,5.0,26172,170,8,4.0,11278.0,7.3
+FLP0422,HP 15s,Laptops,Lenovo,5126.0,,44721,85,7,3.4,5930.0,13.6
+FLP0185,OnePlus Nord CE,Mobiles,HP,5509.0,3.9,40384,64,2,3.2,9200.0,40.1
+FLP0288,OnePlus 43 inch,Televisions,Bajaj,819.0,4.5,48985,199,4,4.4,940.0,12.9
+FLP0011,JBL Tune,Headphones,,6420.0,3.0,10337,37,8,3.8,7747.0,17.1
+FLP0389,OnePlus Nord CE,Mobiles,Realme,7466.0,4.7,19230,107,8,3.6,9090.0,17.9
+FLP0104,boAt Wave,Smart Watches,HP,8525.0,5.0,49358,228,5,4.6,11955.0,28.7
+FLP0082,boAt Wave,Smart Watches,Samsung,4804.0,4.2,4038,36,3,4.3,8211.0,41.5
+FLP0039,Realme Narzo,Mobiles,Bajaj,77098.0,4.0,22765,140,8,3.9,8957.0,16.0
+FLP0321,LG Microwave,Home Appliances,Philips,3508.0,4.3,38640,177,3,4.6,4568.0,23.2
+FLP0199,TCL 55 inch 4K,Televisions,OnePlus,2306.0,3.6,26044,169,8,4.3,2815.0,18.1
+FLP0263,LG 43 inch UHD,Televisions,Prestige,3942.0,3.4,43954,55,9,3.8,6157.0,36.0
+FLP0147,Noise Airwave,Headphones,Philips,3664.0,3.8,36273,48,1,4.2,6550.0,44.1
+FLP0401,Philips Air Fryer,Home Appliances,boAt,850.0,4.7,8073,161,7,5.0,1132.0,24.9
+FLP0148,JBL Tune,Headphones,Lenovo,1882.0,3.5,24955,117,2,3.9,2607.0,27.8
+FLP0313,Fastrack Reflex,Smart Watches,Philips,2678.0,3.5,1965,4,7,4.2,2901.0,7.7
+FLP0292,Boult Audio,Headphones,Prestige,8339.0,4.3,25237,94,1,4.4,9672.0,13.8
+FLP0124,Canon EOS,Cameras,,1714.0,3.6,13397,136,2,5.0,3017.0,43.2
+FLP0376,boAt Wave,Smart Watches,Sony,588.0,4.2,22318,138,5,4.3,956.0,38.5
+FLP0097,Dell Inspiron,Laptops,Noise,1093.0,3.2,24311,235,1,4.4,1717.0,36.3
+FLP0144,LG Microwave,Home Appliances,ASUS,3848.0,4.3,13754,226,4,3.9,4715.0,18.4
+FLP0240,Prestige Mixer,Home Appliances,Adidas,3860.0,3.9,25377,213,2,4.9,4197.0,8.0
+FLP0278,Skechers Walking Shoes,Shoes,Whirlpool,4058.0,3.5,39425,105,9,3.8,5442.0,25.4
+FLP0098,Fastrack Reflex,Smart Watches,Redmi,1836.0,3.1,19091,104,6,4.4,2898.0,36.6
+FLP0357,ASUS VivoBook,Laptops,Bajaj,11980.0,3.6,36708,76,2,,13325.0,10.1
+FLP0123,Lenovo IdeaPad Slim,Laptops,Realme,8649.0,4.7,22790,161,1,3.9,14604.0,40.8
+FLP0184,Boult Audio,Headphones,JBL,4713.0,4.4,48801,229,3,3.7,7423.0,36.5
+FLP0203,Sony Alpha,Cameras,Philips,928.0,3.5,48520,232,3,3.5,1064.0,12.8
+FLP0247,Motorola G54,Mobiles,HP,3231.0,3.9,42266,156,4,4.3,4826.0,33.1
+FLP0312,GoPro Hero,Cameras,Adidas,3988.0,3.8,46104,113,5,4.0,5968.0,33.2
+FLP0415,JBL Tune,Headphones,Sony,3584.0,4.3,34787,80,1,3.9,4116.0,12.9
+FLP0358,Philips Air Fryer,Home Appliances,Adidas,4735.0,4.6,45900,49,6,4.4,6479.0,26.9
+FLP0306,Sony Bravia,Televisions,Nike,2491.0,4.6,44794,158,9,3.9,3072.0,18.9
+FLP0404,Motorola G54,Mobiles,Nike,1363.0,3.8,11395,140,5,3.2,1573.0,13.4
+FLP0383,Fastrack Reflex,Smart Watches,HP,7226.0,3.4,15911,101,3,4.2,10390.0,30.5
+FLP0126,Bajaj Iron,Home Appliances,Whirlpool,2405.0,4.3,28944,7,9,2.8,3148.0,23.6
+FLP0489,Motorola G54,Mobiles,JBL,3772.0,3.9,28283,113,9,3.6,4963.0,24.0
+FLP0224,boAt Wave,Smart Watches,Puma,5209.0,4.3,18698,227,1,3.9,6546.0,20.4
+FLP0427,Samsung Galaxy M14,Mobiles,Noise,3633.0,4.3,18519,35,8,3.6,5671.0,35.9
+FLP0220,Canon EOS,Cameras,Nike,2631.0,5.0,49119,15,2,4.2,2776.0,5.2
+FLP0130,Fire-Boltt Ninja,Smart Watches,HP,3419.0,3.6,24369,2,4,4.4,6084.0,43.8
+FLP0429,Samsung Galaxy M14,Mobiles,JBL,3426.0,4.2,8554,219,2,4.4,4961.0,30.9
+FLP0485,TCL 55 inch 4K,Televisions,Nikon,5150.0,4.9,34001,90,8,3.7,5616.0,8.3
+FLP0335,Skechers Walking Shoes,Shoes,Dell,2828.0,3.8,39415,85,8,4.9,3202.0,11.7
+FLP0385,TCL 55 inch 4K,Televisions,boAt,446.0,4.7,20541,209,4,4.6,748.0,40.4
+FLP0410,Adidas Sports Shoes,Shoes,Adidas,6993.0,4.7,28187,238,6,4.3,10295.0,32.1
+FLP0362,Samsung Galaxy M14,Mobiles,JBL,1234.0,4.2,21831,235,7,3.7,1549.0,20.3
+FLP0300,Philips Air Fryer,Home Appliances,ASUS,2219.0,4.0,26426,101,4,3.6,2880.0,23.0
+FLP0295,Acer Aspire,Laptops,Prestige,3173.0,4.4,26490,234,2,4.6,4715.0,32.7
+FLP0374,Whirlpool Washing Machine,Home Appliances,HP,1673.0,5.0,36679,248,6,4.4,1865.0,10.3
+FLP0347,Boult Audio,Headphones,Redmi,5492.0,4.5,41867,92,2,3.2,7980.0,31.2
+FLP0113,Prestige Mixer,Home Appliances,HP,5284.0,4.0,46624,202,9,4.7,7681.0,31.2
+FLP0180,Sony WH-CH,Headphones,Samsung,8053.0,3.0,27845,227,3,3.6,9888.0,18.6
+FLP0478,Philips Air Fryer,Home Appliances,Redmi,4444.0,3.0,41976,16,9,3.7,7931.0,44.0
+FLP0353,Motorola G54,Mobiles,OnePlus,3130.0,4.0,39857,160,4,4.5,4175.0,25.0
+FLP0337,OnePlus 43 inch,Televisions,Realme,6608.0,4.5,36309,209,1,3.8,7055.0,6.3
+FLP0492,Sony Bravia,Televisions,Realme,1599.0,3.9,15654,153,6,3.8,2035.0,21.4
+FLP0405,Prestige Mixer,Home Appliances,ASUS,3804.0,4.2,41221,105,9,4.5,4151.0,8.4
+FLP0234,boAt Wave,Smart Watches,,2147.0,4.8,23178,224,1,4.4,2606.0,17.6
+FLP0457,Adidas Sports Shoes,Shoes,Nikon,3070.0,4.0,35601,154,2,3.8,3497.0,12.2
+FLP0318,Redmi Note 13,Mobiles,Nikon,3434.0,4.5,32277,247,2,3.8,4233.0,18.9
+FLP0165,Lenovo IdeaPad Slim,Laptops,,1183.0,4.4,49151,141,3,4.2,2014.0,41.3
+FLP0137,Motorola G54,Mobiles,Adidas,4022.0,4.3,9347,231,1,4.1,5342.0,24.7
+FLP0198,Noise ColorFit,Smart Watches,Puma,1955.0,4.0,11956,180,6,4.1,2271.0,13.9
+FLP0259,Bajaj Iron,Home Appliances,boAt,2238.0,3.7,46638,103,6,4.7,2558.0,12.5
+FLP0233,Noise ColorFit,Smart Watches,HP,7628.0,4.0,27739,7,1,4.9,13454.0,43.3
+FLP0116,boAt Wave,Smart Watches,Adidas,4943.0,3.6,11782,213,8,4.3,8254.0,40.1
+FLP0121,Whirlpool Washing Machine,Home Appliances,Noise,2882.0,3.3,28002,172,7,4.7,4752.0,39.4
+FLP0356,Sony Alpha,Cameras,Whirlpool,4617.0,3.5,15077,74,2,4.1,4984.0,7.4
+FLP0225,Lenovo IdeaPad Slim,Laptops,Dell,10092.0,4.4,14143,204,2,4.4,12897.0,21.7
+FLP0411,JBL Tune,Headphones,OnePlus,1501.0,3.7,11533,93,9,4.2,1588.0,5.5
+FLP0439,Sony Alpha,Cameras,JBL,2602.0,3.7,39238,199,4,4.2,4138.0,37.1
+FLP0128,OnePlus Nord CE,Mobiles,Sony,9161.0,4.4,34629,35,6,4.6,16244.0,43.6
+FLP0286,JBL Tune,Headphones,Whirlpool,337.0,3.6,19223,204,3,4.5,433.0,22.2
+FLP0433,LG 43 inch UHD,Televisions,Dell,1073.0,3.9,5781,212,6,4.2,1786.0,39.9
+FLP0108,Fastrack Reflex,Smart Watches,Sony,7596.0,,12502,129,1,3.6,9690.0,21.6
+FLP0378,Samsung Galaxy M14,Mobiles,Redmi,1143.0,3.8,12418,88,5,3.8,2022.0,43.5
+FLP0332,Motorola G54,Mobiles,Samsung,1418.0,4.9,20883,133,1,3.6,1682.0,15.7
+FLP0134,OnePlus 43 inch,Televisions,HP,18594.0,3.9,9433,171,1,4.2,30106.0,38.2
+FLP0371,Fastrack Reflex,Smart Watches,Redmi,1371.0,3.9,36193,186,9,4.0,2093.0,34.5
+FLP0045,Noise ColorFit,Smart Watches,OnePlus,2178.0,4.0,35639,203,3,4.8,3183.0,31.6
+FLP0471,Sony Bravia,Televisions,Philips,3386.0,4.5,25240,162,7,4.1,3796.0,10.8
+FLP0066,ASUS VivoBook,Laptops,Sony,5653.0,4.0,3316,100,6,5.0,8126.0,30.4
+FLP0284,Canon EOS,Cameras,Nikon,2449.0,3.9,44700,82,9,4.4,2999.0,18.3
+FLP0086,boAt Rockerz,Headphones,Sony,980.0,4.3,25000,245,7,3.4,1224.0,19.9
+FLP0243,Fire-Boltt Ninja,Smart Watches,Whirlpool,2550.0,3.4,5624,103,6,4.9,3765.0,32.3
+FLP0187,Acer Aspire,Laptops,Samsung,3855.0,3.9,2016,118,8,4.4,6475.0,40.5
+FLP0392,JBL Tune,Headphones,Noise,5173.0,3.7,10891,58,5,4.2,8359.0,38.1
+FLP0160,Fire-Boltt Ninja,Smart Watches,Philips,2205.0,4.2,3139,23,1,4.0,2544.0,13.3
+FLP0013,JBL Tune,Headphones,JBL,3115.0,3.4,2805,86,5,4.4,4840.0,35.6
+FLP0036,TCL 55 inch 4K,Televisions,Lenovo,2317.0,4.4,31342,81,1,3.6,2985.0,22.4
+FLP0029,Philips Air Fryer,Home Appliances,JBL,2327.0,4.3,47973,146,9,4.6,4038.0,42.4
+FLP0171,Whirlpool Washing Machine,Home Appliances,Puma,972.0,3.7,36134,101,8,4.3,1135.0,14.4
+FLP0143,Fire-Boltt Ninja,Smart Watches,Dell,2305.0,4.8,10521,234,3,4.1,2890.0,20.2
+FLP0407,Puma Sneakers,Shoes,Whirlpool,6868.0,3.5,29223,221,3,3.8,10208.0,32.7
+FLP0496,Fujifilm Instax,Cameras,Noise,5363.0,4.9,48771,86,3,4.4,5683.0,5.6
+FLP0222,Boult Audio,Headphones,LG,5501.0,4.7,11831,42,9,4.5,8172.0,32.7
+FLP0096,Skechers Walking Shoes,Shoes,JBL,1740.0,4.9,44414,226,9,4.2,2257.0,22.9
+FLP0052,Skechers Walking Shoes,Shoes,OnePlus,2168.0,3.9,22212,156,4,4.3,3275.0,33.8
+FLP0241,HP 15s,Laptops,Dell,1956.0,4.8,20543,58,8,4.5,2664.0,26.6
+FLP0399,Whirlpool Washing Machine,Home Appliances,Nikon,14772.0,4.9,42732,79,4,4.1,2659.0,32.2
+FLP0387,boAt Rockerz,Headphones,Bajaj,1084.0,2.8,12311,133,1,3.9,1622.0,33.2
+FLP0179,Samsung Galaxy M14,Mobiles,HP,3085.0,4.3,21317,152,7,4.4,4540.0,32.0
+FLP0042,Fujifilm Instax,Cameras,Lenovo,6712.0,3.8,4917,197,8,5.0,7697.0,12.8
+FLP0445,Noise ColorFit,Smart Watches,Whirlpool,1274.0,4.3,2956,120,3,3.8,1999.0,36.3
+FLP0396,Titan Smart,Smart Watches,Nikon,4126.0,3.8,32797,106,7,4.9,5906.0,30.1
+FLP0207,LG Microwave,Home Appliances,Sony,1520.0,4.9,39753,134,7,3.9,2466.0,38.4
+FLP0283,Nike Running Shoes,Shoes,Samsung,5089.0,4.8,46845,44,1,4.2,6020.0,15.5
+FLP0255,Motorola G54,Mobiles,Dell,20499.0,4.1,8561,171,5,,2953.0,9.2
+FLP0421,ASUS VivoBook,Laptops,boAt,3243.0,3.4,32960,92,5,3.9,5319.0,39.0
+FLP0005,JBL Tune,Headphones,Nikon,3798.0,4.1,40588,249,6,4.4,4171.0,8.9
+FLP0257,GoPro Hero,Cameras,Bajaj,4534.0,,5503,3,6,4.5,4985.0,9.0
+FLP0458,LG Microwave,Home Appliances,ASUS,25946.0,3.8,34329,33,3,3.8,29486.0,12.0
+FLP0101,Fujifilm Instax,Cameras,Redmi,2177.0,3.6,37827,232,4,3.6,2831.0,23.1
+FLP0227,Sony Bravia,Televisions,Noise,3455.0,3.5,18561,227,5,4.2,4053.0,14.8
+FLP0158,Lenovo IdeaPad Slim,Laptops,Dell,567.0,3.7,13472,164,3,4.6,699.0,18.9
+FLP0214,Canon EOS,Cameras,Lenovo,3366.0,4.7,24328,185,7,4.0,3760.0,10.5
+FLP0437,Bajaj Iron,Home Appliances,Bajaj,1854.0,,15722,65,3,3.9,2032.0,8.8
+FLP0172,OnePlus 43 inch,Televisions,Puma,1894.0,4.3,22972,16,6,4.1,3430.0,44.8
+FLP0099,Nike Running Shoes,Shoes,Nike,3208.0,4.8,14381,123,9,5.0,4798.0,33.1
+FLP0293,Realme Narzo,Mobiles,boAt,2266.0,3.1,35433,155,2,4.0,2765.0,18.0
+FLP0216,Sony Bravia,Televisions,Puma,643.0,5.0,7602,243,6,3.6,722.0,10.9
+FLP0062,Fujifilm Instax,Cameras,Lenovo,1482.0,3.8,12748,212,9,3.2,1718.0,13.7
+FLP0048,Sony Alpha,Cameras,Realme,2464.0,4.3,49339,144,1,3.3,2793.0,11.8
+FLP0033,Noise ColorFit,Smart Watches,Prestige,8997.0,4.6,3833,171,4,,9814.0,8.3
+FLP0268,Whirlpool Washing Machine,Home Appliances,Sony,3195.0,3.7,363,142,3,4.5,3623.0,11.8
+FLP0328,Canon EOS,Cameras,JBL,2946.0,3.6,7274,121,4,3.9,3433.0,14.2
+FLP0201,Fujifilm Instax,Cameras,Nike,2294.0,3.9,29509,174,2,3.9,3071.0,25.3
+FLP0456,Boult Audio,Headphones,OnePlus,1101.0,3.8,33209,246,2,4.6,1972.0,44.2
+FLP0028,Lenovo IdeaPad Slim,Laptops,Philips,2276.0,3.6,37760,106,8,4.9,3617.0,37.1
+FLP0398,Campus Running Shoes,Shoes,Philips,3134.0,3.5,20625,244,5,3.6,4127.0,24.1
+FLP0231,Adidas Sports Shoes,Shoes,OnePlus,6742.0,4.4,8041,159,4,5.0,11216.0,39.9
+FLP0261,OnePlus Nord CE,Mobiles,boAt,1236.0,4.3,4862,118,1,3.2,1514.0,18.4
+FLP0379,Acer Aspire,Laptops,Realme,12254.0,4.2,281,17,2,3.6,15356.0,20.2
+FLP0289,Motorola G54,Mobiles,Nikon,2465.0,4.4,18956,103,9,4.9,3422.0,28.0
+FLP0163,Prestige Mixer,Home Appliances,Lenovo,4004.0,4.3,47780,80,8,3.9,6971.0,42.6
+FLP0434,Whirlpool Washing Machine,Home Appliances,Redmi,90647.0,3.5,12454,215,6,4.2,21344.0,37.4
+FLP0139,Sony Alpha,Cameras,Nike,3053.0,3.6,7451,181,4,,3234.0,5.6
+FLP0063,LG 43 inch UHD,Televisions,Philips,7241.0,3.8,42097,148,8,4.1,10720.0,32.5
+FLP0136,Sony Bravia,Televisions,Philips,3926.0,4.3,12341,27,1,,4594.0,14.5
+FLP0129,boAt Wave,Smart Watches,boAt,3839.0,4.5,48443,17,4,4.1,4059.0,5.4
+FLP0487,Noise Airwave,Headphones,Sony,5070.0,4.0,5590,67,9,3.1,5768.0,12.1
+FLP0009,Sony Alpha,Cameras,Nikon,5156.0,3.6,24005,95,4,4.5,5850.0,11.9
+FLP0327,boAt Rockerz,Headphones,JBL,17513.0,,38120,60,3,4.0,21096.0,17.0
+FLP0474,Noise ColorFit,Smart Watches,Sony,949.0,4.6,15378,102,5,4.8,1442.0,34.2
+FLP0065,Nikon DSLR,Cameras,Puma,3167.0,4.1,6593,12,7,4.8,3820.0,17.1
+FLP0301,Redmi Note 13,Mobiles,Samsung,11251.0,3.1,1713,215,9,4.8,1248.0,24.0
+FLP0015,Prestige Mixer,Home Appliances,boAt,4646.0,4.2,30124,49,3,3.7,5203.0,10.7
+FLP0157,Nikon DSLR,Cameras,Bajaj,1034.0,4.5,18631,12,8,4.3,1646.0,37.2
+FLP0041,JBL Tune,Headphones,Bajaj,4079.0,3.4,46633,176,2,3.5,5944.0,31.4
+FLP0380,Samsung Galaxy M14,Mobiles,Noise,7390.0,3.8,17616,18,7,3.6,8911.0,17.1
+FLP0470,Fastrack Reflex,Smart Watches,Prestige,1237.0,4.1,1594,93,3,4.0,1757.0,29.6
+FLP0412,Prestige Mixer,Home Appliances,Nike,2753.0,4.1,21286,64,6,4.2,4047.0,32.0
+FLP0217,Fastrack Reflex,Smart Watches,Adidas,2703.0,3.7,47098,56,8,4.0,2856.0,5.4
+FLP0280,HP 15s,Laptops,Prestige,1925.0,4.2,20224,25,1,3.4,2446.0,21.3
+FLP0482,Nike Running Shoes,Shoes,boAt,4606.0,4.5,46106,92,6,3.4,7303.0,36.9
+FLP0440,Sony WH-CH,Headphones,Nike,8939.0,4.0,45510,175,2,4.5,12305.0,27.4
+FLP0338,JBL Tune,Headphones,Dell,4898.0,4.0,30391,77,9,3.7,6113.0,19.9
+FLP0237,Nike Running Shoes,Shoes,boAt,17330.0,3.6,6144,247,2,4.0,28838.0,39.9
+FLP0208,Fire-Boltt Ninja,Smart Watches,HP,3171.0,3.8,7074,223,4,4.0,5664.0,44.0
+FLP0213,TCL 55 inch 4K,Televisions,Lenovo,2761.0,3.2,4657,54,7,4.8,3173.0,13.0
+FLP0296,Titan Smart,Smart Watches,Whirlpool,4825.0,3.3,10243,64,3,4.4,6461.0,25.3
+FLP0500,Fire-Boltt Ninja,Smart Watches,Noise,3690.0,3.3,48693,40,5,4.8,5986.0,38.4
+FLP0252,OnePlus Nord CE,Mobiles,Samsung,3627.0,4.8,2357,78,4,3.9,5953.0,39.1
+FLP0499,Realme Narzo,Mobiles,Redmi,8695.0,3.6,14032,202,3,,10575.0,17.8
+FLP0468,Samsung Galaxy M14,Mobiles,OnePlus,1463.0,4.6,15374,147,5,4.0,2259.0,35.2
+FLP0304,Nike Running Shoes,Shoes,Philips,6504.0,3.6,10490,56,1,3.7,9838.0,33.9
+FLP0351,Noise ColorFit,Smart Watches,Sony,4197.0,3.8,34636,234,6,3.8,6809.0,38.4
+FLP0270,Noise Airwave,Headphones,Redmi,6680.0,,19845,27,5,3.3,9383.0,28.8
+FLP0202,Philips Air Fryer,Home Appliances,Redmi,474.0,4.2,17443,221,9,4.6,590.0,19.7
+FLP0162,OnePlus Nord CE,Mobiles,Philips,5806.0,4.9,15439,213,6,3.7,7694.0,24.5
+FLP0044,Prestige Mixer,Home Appliances,Canon,7726.0,3.9,33628,55,4,4.3,12586.0,38.6
+FLP0218,TCL 55 inch 4K,Televisions,Sony,1909.0,4.1,37231,125,4,4.6,2271.0,15.9
+FLP0402,Noise ColorFit,Smart Watches,Dell,3045.0,4.8,7300,246,1,4.2,4831.0,37.0
+FLP0191,Canon EOS,Cameras,Puma,1918.0,4.9,28802,208,5,3.9,2684.0,28.5
+FLP0310,Adidas Sports Shoes,Shoes,LG,4647.0,4.4,25557,25,7,3.6,8058.0,42.3
+FLP0260,Boult Audio,Headphones,Bajaj,11605.0,3.1,9574,136,9,4.9,16493.0,29.6
+FLP0106,Dell Inspiron,Laptops,Nikon,2154.0,3.7,10063,99,6,4.6,3483.0,38.2
+FLP0054,Titan Smart,Smart Watches,Redmi,2630.0,4.3,34290,59,5,4.2,4660.0,43.6
+FLP0390,Redmi Note 13,Mobiles,Prestige,23198.0,4.0,36981,114,7,4.1,29472.0,21.3
+FLP0002,Fastrack Reflex,Smart Watches,HP,2703.0,4.2,28938,184,5,3.6,4160.0,35.0
+FLP0451,Skechers Walking Shoes,Shoes,Philips,3412.0,3.7,23787,9,1,4.0,3806.0,10.4
+FLP0493,Realme Narzo,Mobiles,LG,1829.0,4.1,37718,108,9,,2500.0,26.8
+FLP0050,Skechers Walking Shoes,Shoes,Dell,115071.0,2.9,22059,214,5,4.8,15685.0,32.8
+FLP0420,Adidas Sports Shoes,Shoes,OnePlus,4686.0,5.0,41874,85,9,4.8,5161.0,9.2
+FLP0081,Canon EOS,Cameras,Puma,1693.0,3.7,46742,139,9,3.8,2590.0,34.6
+FLP0206,TCL 55 inch 4K,Televisions,OnePlus,4630.0,3.8,42422,133,2,4.2,5885.0,21.3
+FLP0035,Puma Sneakers,Shoes,Nike,2837.0,4.0,12610,99,5,4.8,4711.0,39.8
+FLP0431,OnePlus Nord CE,Mobiles,Bajaj,1879.0,4.4,5190,169,6,4.0,3357.0,44.0
+FLP0264,Redmi Note 13,Mobiles,Bajaj,7614.0,2.4,16771,95,4,4.5,10785.0,29.4
+FLP0428,boAt Wave,Smart Watches,Bajaj,5088.0,4.6,38015,100,5,4.2,6550.0,22.3
+FLP0367,Nike Running Shoes,Shoes,Canon,2922.0,4.0,26915,98,7,3.5,3469.0,15.8
+FLP0092,boAt Wave,Smart Watches,Lenovo,4305.0,3.5,13400,46,8,3.5,5043.0,14.6
+FLP0340,Fastrack Reflex,Smart Watches,Puma,4411.0,5.0,3807,45,9,4.8,5376.0,18.0
+FLP0484,Skechers Walking Shoes,Shoes,Dell,3151.0,4.7,18696,180,8,4.2,5292.0,40.5
+FLP0053,Noise Airwave,Headphones,Lenovo,2354.0,,15119,160,7,4.6,3561.0,33.9
+FLP0346,Fujifilm Instax,Cameras,Dell,8515.0,,28403,5,9,3.9,10890.0,21.8
+FLP0265,Sony WH-CH,Headphones,boAt,12672.0,,26137,211,2,4.7,17078.0,25.8
+FLP0242,Nikon DSLR,Cameras,,2237.0,4.3,14978,131,6,4.1,2984.0,25.0
+FLP0014,JBL Tune,Headphones,Realme,872.0,2.8,29543,87,3,4.8,1375.0,36.6
+FLP0316,LG Microwave,Home Appliances,Redmi,3198.0,2.4,48656,104,9,,4506.0,29.0
+FLP0089,Fastrack Reflex,Smart Watches,Sony,2018.0,4.7,34547,27,5,3.9,2955.0,31.7
+FLP0388,Nikon DSLR,Cameras,Noise,883.0,3.7,10508,3,4,4.3,1159.0,23.8
+FLP0274,Whirlpool Washing Machine,Home Appliances,Nikon,9938.0,4.7,16001,58,8,4.7,13511.0,26.4
+FLP0167,Bajaj Iron,Home Appliances,Philips,5542.0,4.1,18024,162,4,,9175.0,39.6
+FLP0329,Philips Air Fryer,Home Appliances,Philips,7995.0,3.7,28069,20,8,3.3,11673.0,31.5
+FLP0155,OnePlus 43 inch,Televisions,Redmi,2113.0,4.2,34596,73,1,4.2,2862.0,26.2
+FLP0135,Sony Alpha,Cameras,HP,2575.0,4.7,37442,148,7,4.2,3728.0,30.9
+FLP0307,Noise ColorFit,Smart Watches,Canon,2547.0,3.4,26091,232,2,4.4,2885.0,11.7
+FLP0491,Bajaj Iron,Home Appliances,Realme,3014.0,5.0,12242,57,3,4.0,4418.0,31.8
+FLP0320,Adidas Sports Shoes,Shoes,Lenovo,3088.0,3.4,37534,160,2,4.4,3282.0,5.9
+FLP0244,Redmi Note 13,Mobiles,Sony,4625.0,5.0,34709,194,7,4.1,5095.0,9.2
+FLP0055,GoPro Hero,Cameras,Prestige,1124.0,4.8,16023,218,5,4.3,1221.0,7.9
+FLP0364,HP 15s,Laptops,Samsung,5773.0,3.4,46097,168,8,3.5,8145.0,29.1
+FLP0051,Canon EOS,Cameras,HP,11657.0,3.5,4497,217,8,3.5,17775.0,34.4
+FLP0466,Nikon DSLR,Cameras,HP,2799.0,3.9,23076,66,1,4.2,4610.0,39.3
+FLP0175,Prestige Mixer,Home Appliances,ASUS,2716.0,4.2,16395,115,5,4.2,4472.0,39.3
+FLP0446,Sony WH-CH,Headphones,Sony,4221.0,3.9,17627,92,6,4.5,4567.0,7.6
+FLP0190,Nike Running Shoes,Shoes,Nike,10426.0,4.3,11743,174,5,3.3,13237.0,21.2
+FLP0267,Fastrack Reflex,Smart Watches,Prestige,7808.0,4.9,143,74,1,3.3,13406.0,41.8
+FLP0464,Samsung Galaxy M14,Mobiles,Whirlpool,12121.0,4.9,16571,70,7,4.4,15149.0,20.0
+FLP0188,Canon EOS,Cameras,Whirlpool,5809.0,3.5,44019,155,1,4.2,6123.0,5.1
+FLP0170,Nike Running Shoes,Shoes,Prestige,1400.0,3.6,45739,110,2,4.8,1509.0,7.2
+FLP0059,Noise Airwave,Headphones,Lenovo,3204.0,4.1,8215,137,6,3.6,3587.0,10.7
+FLP0049,Campus Running Shoes,Shoes,Philips,2307.0,4.0,3117,185,7,3.7,2483.0,7.1
+FLP0345,Sony WH-CH,Headphones,Puma,7978.0,4.1,6147,221,5,5.0,11781.0,32.3
+FLP0236,Titan Smart,Smart Watches,Nikon,3859.0,3.9,790,216,3,4.2,4361.0,11.5
+FLP0253,Noise ColorFit,Smart Watches,Whirlpool,5382.0,3.7,1937,123,3,4.0,9171.0,41.3
+FLP0022,LG 43 inch UHD,Televisions,Redmi,5683.0,3.8,21185,63,5,3.9,6592.0,13.8
+FLP0314,Nikon DSLR,Cameras,Puma,2816.0,4.0,562,83,4,4.3,3709.0,24.1
+FLP0460,Boult Audio,Headphones,Realme,12226.0,3.1,23869,128,1,4.1,18431.0,33.7
+FLP0161,Canon EOS,Cameras,,1455.0,3.9,16748,1,5,4.2,1839.0,20.9
+FLP0277,Realme Narzo,Mobiles,Philips,4891.0,3.5,13288,198,2,3.5,7221.0,32.3
+FLP0444,LG Microwave,Home Appliances,Redmi,18327.0,3.8,35328,154,6,4.3,31749.0,42.3
+FLP0192,boAt Rockerz,Headphones,OnePlus,13915.0,4.2,47503,103,1,4.7,23170.0,39.9
+FLP0386,Philips Air Fryer,Home Appliances,Redmi,20594.0,3.9,27815,153,5,4.2,31600.0,34.8
+FLP0294,Dell Inspiron,Laptops,Nikon,4347.0,3.7,43176,202,6,4.9,5072.0,14.3
+FLP0414,Realme Narzo,Mobiles,HP,1518.0,3.9,8610,38,7,4.8,1918.0,20.9
+FLP0344,Lenovo IdeaPad Slim,Laptops,Samsung,7635.0,4.6,22195,2,6,4.4,8816.0,13.4
+FLP0258,Campus Running Shoes,Shoes,Puma,5529.0,3.9,10587,89,3,4.0,7169.0,22.9
+FLP0309,LG Microwave,Home Appliances,Philips,4472.0,4.2,7689,241,8,3.8,6046.0,26.0
+FLP0150,Bajaj Iron,Home Appliances,Puma,974.0,2.9,36793,137,4,3.2,1619.0,39.8
+FLP0131,Titan Smart,Smart Watches,Adidas,1110.0,3.2,2003,27,5,4.5,1525.0,27.2
+FLP0152,Sony WH-CH,Headphones,Nikon,4455.0,3.4,36032,43,3,4.2,5630.0,20.9
+FLP0360,boAt Rockerz,Headphones,LG,7124.0,3.8,40515,94,4,3.9,12951.0,45.0
+FLP0100,TCL 55 inch 4K,Televisions,Dell,13845.0,3.9,5894,198,1,3.6,15142.0,8.6
+FLP0373,Acer Aspire,Laptops,Puma,11797.0,4.7,21167,189,6,3.9,19844.0,40.6
+FLP0088,Motorola G54,Mobiles,Nike,13859.0,3.5,32407,102,6,4.3,20938.0,33.8
+FLP0459,JBL Tune,Headphones,Dell,1732.0,4.4,46137,242,6,4.8,2002.0,13.5
+FLP0331,OnePlus Nord CE,Mobiles,Redmi,5379.0,4.1,2459,196,6,3.5,7060.0,23.8
+FLP0215,Noise Airwave,Headphones,Dell,3892.0,3.7,42143,6,3,3.6,6377.0,39.0
+FLP0467,Prestige Mixer,Home Appliances,Samsung,2069.0,4.0,38338,211,7,4.0,2443.0,15.3
+FLP0122,TCL 55 inch 4K,Televisions,Realme,3705.0,3.5,6444,236,9,3.4,4823.0,23.2
+FLP0283,Nike Running Shoes,Shoes,Samsung,5089.0,4.8,46845,44,1,4.2,6020.0,15.5
+FLP0021,Adidas Sports Shoes,Shoes,Whirlpool,3192.0,4.5,6801,120,5,4.6,4362.0,26.8
+FLP0189,Sony Alpha,Cameras,Lenovo,3066.0,3.7,46563,15,1,4.3,4918.0,37.7
+FLP0072,Acer Aspire,Laptops,Lenovo,23488.0,4.5,48285,195,4,4.7,27614.0,14.9
+FLP0107,Nike Running Shoes,Shoes,boAt,2227.0,5.0,9106,30,1,4.1,2528.0,11.9
+FLP0271,Adidas Sports Shoes,Shoes,ASUS,5552.0,3.5,34400,21,6,5.0,9490.0,41.5
+FLP0349,Philips Air Fryer,Home Appliances,Adidas,12170.0,5.0,19508,171,5,4.7,16520.0,26.3
+FLP0436,Whirlpool Washing Machine,Home Appliances,Nike,1893.0,3.9,40596,103,1,4.2,2225.0,14.9
+FLP0103,Lenovo IdeaPad Slim,Laptops,Samsung,3251.0,3.7,20589,209,9,4.0,4721.0,31.1
