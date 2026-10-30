@@ -3,7 +3,6 @@ from operations import (
     login,
     add_product,
     list_products,
-    search_products,
     update_product,
     add_supplier,
     list_suppliers,
@@ -12,135 +11,119 @@ from operations import (
     record_purchase,
     make_sale,
     show_low_stock,
-    add_staff
+    export_products_csv,
 )
+from reports import sales_report, export_sales_csv
 
-from reports import (
-    sales_report,
-    profit_report,
-    export_sales_report
-)
-
-
-def product_menu(user):
+def menu(user):
     while True:
-        print("\n--- Product Management ---")
-        print("1. Add product")
-        print("2. List products")
-        print("3. Search product")
-        print("4. Update product")
-        print("5. Low-stock report")
-        print("0. Back")
+        print("\n... VYAPARMITRA ...")
+        print("1. Products  2. Suppliers (admin)  3. Customers")
+        print("4. Record purchase (admin)  5. Sales and billing")
+        print("6. Reports and CSV exports  0. Logout")
 
-        choice = input("Choice: ").strip()
-
-        if choice == "1":
-            if user["role"] == "admin":
-                add_product()
-            else:
-                print("Admin permission required.")
-
-        elif choice == "2":
-            list_products()
-
-        elif choice == "3":
-            search_products()
-
-        elif choice == "4":
-            if user["role"] == "admin":
-                update_product()
-            else:
-                print("Admin permission required.")
-
-        elif choice == "5":
-            show_low_stock()
-
-        elif choice == "0":
-            break
-
-        else:
-            print("Invalid choice. Please try again.")
-
-
-def main_menu(user):
-    while True:
-        print("\n===== VYAPARMITRA =====")
-        print(f"Logged in: {user['username']} ({user['role']})")
-        print("---------------------------------")
-        print("1. Product management")
-        print("2. Supplier management")
-        print("3. Customer management")
-        print("4. Record purchase")
-        print("5. Sales and billing")
-        print("6. Low-stock report")
-        print("7. Daily sales report")
-        print("8. Product-wise gross profit report")
-        print("9. Export sales report to CSV")
-
-        if user["role"] == "admin":
-            print("10. Create staff login")
-
-        print("0. Logout")
-        print("-------------")
-
-        choice = input("Enter choice: ").strip()
+        choice = input("Choose: ").strip()
 
         try:
             if choice == "1":
-                product_menu(user)
+                while True:
+                    print("\n--- PRODUCTS ---")
+                    print("1. List products")
+                    print("2. Add product (admin)")
+                    print("3. Update product (admin)")
+                    print("0. Back")
+
+                    option = input("Choose: ").strip()
+
+                    if option == "1":
+                        list_products()
+                    elif option == "2":
+                        if user["role"] == "admin":
+                            add_product()
+                        else:
+                            print("Only admin can add products.")
+                    elif option == "3":
+                        if user["role"] == "admin":
+                            update_product()
+                        else:
+                            print("Only admin can update products.")
+                    elif option == "0":
+                        break
+                    else:
+                        print("Invalid choice.")
 
             elif choice == "2":
                 if user["role"] != "admin":
-                    print("Admin permission required.")
-                else:
-                    print("\n1. Add supplier")
+                    print("Only admin can manage suppliers.")
+                    continue
+
+                while True:
+                    print("\n--- SUPPLIERS ---")
+                    print("1. Add supplier")
                     print("2. List suppliers")
+                    print("0. Back")
 
-                    sub = input("Choice: ").strip()
+                    option = input("Choose: ").strip()
 
-                    if sub == "1":
+                    if option == "1":
                         add_supplier()
-                    elif sub == "2":
+                    elif option == "2":
                         list_suppliers()
+                    elif option == "0":
+                        break
                     else:
                         print("Invalid choice.")
 
             elif choice == "3":
-                print("\n1. Add customer")
-                print("2. List customers")
+                while True:
+                    print("\n--- CUSTOMERS ---")
+                    print("1. Add customer")
+                    print("2. List customers")
+                    print("0. Back")
 
-                sub = input("Choice: ").strip()
+                    option = input("Choose: ").strip()
 
-                if sub == "1":
-                    add_customer()
-                elif sub == "2":
-                    list_customers()
-                else:
-                    print("Invalid choice.")
+                    if option == "1":
+                        add_customer()
+                    elif option == "2":
+                        list_customers()
+                    elif option == "0":
+                        break
+                    else:
+                        print("Invalid choice.")
 
             elif choice == "4":
-                if user["role"] != "admin":
-                    print("Admin permission required.")
-                else:
+                if user["role"] == "admin":
                     record_purchase()
+                else:
+                    print("Only admin can record purchases.")
 
             elif choice == "5":
                 make_sale(user["id"])
 
             elif choice == "6":
-                show_low_stock()
+                while True:
+                    print("\n--- REPORTS AND EXPORTS ---")
+                    print("1. Low-stock report")
+                    print("2. Daily sales report")
+                    print("3. Export products to CSV")
+                    print("4. Export all sales to CSV")
+                    print("0. Back")
 
-            elif choice == "7":
-                sales_report()
+                    option = input("Choose: ").strip()
 
-            elif choice == "8":
-                profit_report()
-
-            elif choice == "9":
-                export_sales_report()
-
-            elif choice == "10" and user["role"] == "admin":
-                add_staff()
+                    if option == "1":
+                        show_low_stock()
+                    elif option == "2":
+                        sales_report()
+                    elif option == "3":
+                        export_products_csv()
+                    elif option == "4":
+                        export_sales_csv()
+                    elif option == "0":
+                        break
+                    else:
+                        print("Invalid choice.")
 
             elif choice == "0":
                 print("Logged out.")
@@ -151,37 +134,30 @@ def main_menu(user):
 
         except Exception as error:
             print(f"Operation failed: {error}")
-            print("Check your input, database connection, and table structure.")
 
 
 def main():
-    print("Starting VyaparMitra...")
-
     try:
         initialize_database()
-
     except Exception as error:
-        print(f"Cannot initialize the database: {error}")
-        print("Check that MySQL is running and database.py has the correct settings.")
+        print(f"MySQL connection/setup failed: {error}")
+        print("Check that MySQL is running and DB_CONFIG in database.py is correct.")
         return
 
     while True:
-        print("\n.... START MENU ....")
+        print("\n--- VYAPARMITRA LOGIN ---")
         print("1. Login")
         print("0. Exit")
 
-        choice = input("Choice: ").strip()
+        choice = input("Choose: ").strip()
 
         if choice == "1":
             user = login()
-
             if user:
-                main_menu(user)
-
+                menu(user)
         elif choice == "0":
             print("Thank you for using VyaparMitra.")
             break
-
         else:
             print("Invalid choice.")
 
