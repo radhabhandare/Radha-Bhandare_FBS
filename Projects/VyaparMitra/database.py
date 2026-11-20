@@ -1,31 +1,54 @@
 import hashlib
+import secrets
 import mysql.connector
-
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "radha",
+    'host': 'localhost',
+    'user': 'root',
+    'password': 'radha'
 }
-
-DB_NAME = "vyaparmitra"
-
+DB_NAME = 'vyaparmitra'
 
 def get_connection():
     return mysql.connector.connect(
         **DB_CONFIG,
-        database=DB_NAME,
+        database=DB_NAME
     )
 
-
 def hash_password(password):
-    """Return the SHA-256 hash of a password."""
-    return hashlib.sha256(password.encode("utf-8")).hexdigest()
+    salt = secrets.token_hex(16)
 
+    password_hash = hashlib.pbkdf2_hmac(
+        'sha256',
+        password.encode('utf-8'),
+        salt.encode('utf-8'),
+        100000
+    ).hex()
+
+    return f'pbkdf2_sha256${salt}${password_hash}'
 
 def verify_password(password, stored_hash):
-    """Verify a password against its stored hash."""
-    return hash_password(password) == stored_hash
+    if stored_hash.startswith('pbkdf2_sha256$'):
+        try:
+            parts = stored_hash.split('$')
 
+            salt = parts[1]
+            saved_hash = parts[2]
+
+            new_hash = hashlib.pbkdf2_hmac(
+                'sha256',
+                password.encode('utf-8'),
+                salt.encode('utf-8'),
+                100000
+            ).hex()
+
+            return secrets.compare_digest(new_hash, saved_hash)
+
+        except (IndexError, ValueError):
+            return False
+
+    old_hash = hashlib.sha256(password.encode('utf-8')).hexdigest()
+
+    return secrets.compare_digest(old_hash, stored_hash)
 
 def run_query(
     query,
@@ -33,33 +56,29 @@ def run_query(
     fetchone=False,
     fetchall=False,
     commit=False,
-    fetch=False,
+    fetch=False
 ):
-    """
-    Execute an SQL query.
-
-    fetchone=True returns one dictionary.
-    fetchall=True or fetch=True returns a list of dictionaries.
-    INSERT returns the new row ID.
-    UPDATE/DELETE return the number of affected rows.
-    Data-changing queries are committed automatically.
-    """
     connection = None
     cursor = None
 
     try:
         connection = get_connection()
         cursor = connection.cursor(dictionary=True)
+
         cursor.execute(query, params or ())
 
         if fetchone:
             result = cursor.fetchone()
+
         elif fetchall or fetch:
             result = cursor.fetchall()
+
         elif cursor.with_rows:
             result = None
-        elif query.lstrip().upper().startswith("INSERT"):
+
+        elif query.lstrip().upper().startswith('INSERT'):
             result = cursor.lastrowid
+
         else:
             result = cursor.rowcount
 
@@ -72,7 +91,7 @@ def run_query(
         if connection:
             connection.rollback()
 
-        print(f"Database error: {error}")
+        print(f'Database error: {error}')
         return None
 
     finally:
@@ -81,18 +100,14 @@ def run_query(
 
         if connection and connection.is_connected():
             connection.close()
-
-
-def log_activity(user_id, action, details=""):
-    """Record an activity in the activity_logs table."""
+def log_activity(user_id, action, details=''):
     return run_query(
         """
         INSERT INTO activity_logs (user_id, action, details)
         VALUES (%s, %s, %s)
         """,
-        (user_id, action, details),
+        (user_id, action, details)
     )
-
 
 def initialize_database():
     connection = None
@@ -103,9 +118,10 @@ def initialize_database():
         cursor = connection.cursor()
 
         cursor.execute(
-            f"CREATE DATABASE IF NOT EXISTS `{DB_NAME}` "
-            "CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci"
+            f'CREATE DATABASE IF NOT EXISTS `{DB_NAME}` '
+            'CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci'
         )
+
         connection.database = DB_NAME
 
         cursor.execute("""
@@ -231,24 +247,28 @@ def initialize_database():
         """)
 
         cursor.execute(
-            "SELECT user_id FROM users WHERE username = %s",
-            ("admin",),
+            'SELECT user_id FROM users WHERE username=%s',
+            ('admin',)
         )
 
         if not cursor.fetchone():
-            cursor.execute("""
+            cursor.execute(
+                """
                 INSERT INTO users (username, password_hash, role)
                 VALUES (%s, %s, %s)
-            """, ("admin", hash_password("admin123"), "admin"))
+                """,
+                ('admin', hash_password('admin123'), 'admin')
+            )
 
         connection.commit()
-        print("Database initialized successfully.")
+
+        print('Database initialized successfully.')
 
     except mysql.connector.Error as error:
         if connection:
             connection.rollback()
 
-        print(f"Database initialization error: {error}")
+        print(f'Database initialization error: {error}')
         raise
 
     finally:
